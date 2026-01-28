@@ -1,0 +1,6 @@
+.env
+.venv
+services/
+__pycache__/
+routers/
+.bigquery_client.py
