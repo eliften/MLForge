@@ -36,6 +36,15 @@ This project is currently under active development.
 
 ## 🏗️ Architecture (High Level)
 
+User
+↓
+Dash UI
+↓
+Flask Session
+↓
+Redis (state store)
+↓
+ML Pipeline
 
 ---
 
