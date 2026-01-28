@@ -1,6 +1,6 @@
 import dash_bootstrap_components as dbc,pandas as pd, dash, io, base64
 from dash import html, dcc, Input, Output, callback, State
-from redis_client import get_redis, load_model_from_redis, load_problem_type_from_redis, save_df_to_redis, load_df_from_redis, save_model_to_redis, save_problem_type_to_redis
+from core.redis_client import get_redis, load_model_from_redis, load_problem_type_from_redis, save_df_to_redis, load_df_from_redis, save_model_to_redis, save_problem_type_to_redis
 from flask import session
 
 def get_session_id():
