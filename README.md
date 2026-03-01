@@ -1,40 +1,23 @@
-# MLForge 🚀
+MLForge (Legacy Dash Version) 🚀
 
-MlForge is a session-based machine learning platform built with **Dash**, **Flask**, and **Redis**.
+⚠️ This branch contains the original Dash-based implementation of MLForge.
 
-It allows users to upload datasets, select problem types and models, and manage the entire ML workflow in a clean and scalable way.
+The project has since evolved into a redesigned modular ML experimentation platform.
+This legacy version is preserved for architectural reference.
 
-This project is currently under active development.
+Overview
 
----
+This implementation was built as a session-based machine learning platform using:
 
-## ✨ Features
+Dash
 
-- Session-based architecture (multi-user safe)
-- Redis-backed state management
-- Supports multiple ML problem types:
-  - Regression
-  - Classification
-  - Clustering
-  - Time Series
-- Train / test dataset handling
-- Dynamic model selection
-- Modular and extensible pipeline design
+Flask
 
----
+Redis
 
-## 🧠 Tech Stack
+It supports multi-user session handling and dynamic ML workflows.
 
-- **Python**
-- **Dash**
-- **Flask**
-- **Redis**
-- **Pandas**
-- **Scikit-learn (planned)**
-
----
-
-## 🏗️ Architecture (High Level)
+Architecture
 
 User
 ↓
@@ -42,32 +25,13 @@ Dash UI
 ↓
 Flask Session
 ↓
-Redis (state store)
+Redis
 ↓
 ML Pipeline
 
----
+Project Evolution
 
-## 🚧 Project Status
-
-This project is in early development.
-
-Upcoming features include:
-- Feature & target selection
-- Model training pipeline
-- Evaluation metrics
-- Model comparison
-- AutoML extensions
-
----
-
-## 📌 Notes
-
-This repository is intended as a learning-driven and scalable ML system design project.  
-The structure is designed to support future production-level extensions.
-
----
-
-## 📄 License
+MLForge initially started as a UI-driven ML workflow tool.
+The current main branch represents a redesigned and more modular architecture.
 
 MIT License
